@@ -1,9 +1,9 @@
-from twilio.rest import Client
+import os
+from os.path import dirname, join
 from typing import Any
 
-import os
-from os.path import join, dirname
 from dotenv import load_dotenv
+from twilio.rest import Client
 
 dotenv_path = join(dirname(__file__), ".env")
 load_dotenv(dotenv_path)

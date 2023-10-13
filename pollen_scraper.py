@@ -1,8 +1,8 @@
-from bs4 import BeautifulSoup
-import requests
 import re
-
 from typing import Dict, Optional
+
+import requests
+from bs4 import BeautifulSoup
 
 # from datetime import datetime, timedelta
 
