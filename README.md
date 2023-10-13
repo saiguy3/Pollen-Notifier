@@ -20,8 +20,6 @@ Make a Twilio account and go through their set-up process. Need to define these 
 
 ```
 pip install -r requirements.txt
-pip install pre-commit
-pre-commit install
 ```
 
 ## Usage
